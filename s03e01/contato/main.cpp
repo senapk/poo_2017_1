@@ -84,7 +84,7 @@ public:
     vector<string> getTelefones(){
         return telefones;
     }
-}
+};
 
 int main(){
 
