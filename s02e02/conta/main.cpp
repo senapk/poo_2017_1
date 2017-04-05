@@ -71,7 +71,6 @@ int main()
     Conta c1(21, 0.0);
     Conta c2(22, 1.1);
 
-    cout << c1.getConta() << endl;
     cout << (c1.getConta() == 21) << endl;
     cout << (equal(c2.getSaldo(), 1.1)) << endl;
 
