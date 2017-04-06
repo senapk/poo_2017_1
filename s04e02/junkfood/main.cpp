@@ -21,8 +21,14 @@ int main()
 
     string input;
     while(input != "sair"){
+        cout << string(50, '\n');//limpar a tela
         maq.mostrarStatus();
-        cout << "Digite din troco comprar sair" << endl;
+        cout << "Digite:" << endl
+             << "din valor - inserir 'valor' de dinheiro na maquina" << endl
+             << "troco - pedir troco" << endl
+             << "comprar id - comprar o produto da gaveta id" << endl
+             << "sair - para sair" << endl << ">> ";
+
         cin >> input;
 
         if(input == "din"){
